@@ -1,7 +1,7 @@
 # Text2Room
 Text2Room generates textured 3D meshes from a given text prompt using 2D text-to-image models.
 
-This is the official repository that contains source code for the arXiv paper [Text2Room](https://lukashoel.github.io/text-to-room/).
+This is the official repository that contains source code for the ICCV 2023 paper [Text2Room](https://lukashoel.github.io/text-to-room/).
 
 [[arXiv](https://arxiv.org/abs/2303.11989)] [[Project Page](https://lukashoel.github.io/text-to-room/)] [[Video](https://youtu.be/fjRnFL91EZc)]
 
@@ -12,7 +12,7 @@ If you find Text2Room useful for your work please cite:
 @preprint{hoellein2023text2room,
   title={Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models},
   author={H{\"o}llein, Lukas and Cao, Ang and Owens, Andrew and Johnson, Justin and Nie{\ss}ner, Matthias},
-  journal={arXiv preprint arXiv:2303.11989},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   year={2023}
 }
 ```
