@@ -9,11 +9,13 @@ This is the official repository that contains source code for the ICCV 2023 pape
 
 If you find Text2Room useful for your work please cite:
 ```
-@preprint{hoellein2023text2room,
-  title={Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models},
-  author={H{\"o}llein, Lukas and Cao, Ang and Owens, Andrew and Johnson, Justin and Nie{\ss}ner, Matthias},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year={2023}
+@InProceedings{Hollein_2023_ICCV,
+    author    = {H\"ollein, Lukas and Cao, Ang and Owens, Andrew and Johnson, Justin and Nie{\ss}ner, Matthias},
+    title     = {Text2Room: Extracting Textured 3D Meshes from 2D Text-to-Image Models},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {7909-7920}
 }
 ```
 
