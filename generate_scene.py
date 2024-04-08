@@ -11,6 +11,14 @@ import torch
 
 @torch.no_grad()
 def main(args):
+
+    args.input_image_path = "sample_data/6.png"
+
+    print("Received args: ", args)
+
+    if args.input_image_path and not os.path.isfile(args.input_image_path):
+        raise FileNotFoundError(f"The specified input_image_path does not exist: {args.input_image_path}")
+
     # load trajectories
     trajectories = json.load(open(args.trajectory_file, "r"))
 
