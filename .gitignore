@@ -1,5 +1,6 @@
 output/
 checkpoints/
+sample_data/
 
 .idea
 .vscode
