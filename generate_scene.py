@@ -2,6 +2,7 @@ import os
 import json
 from PIL import Image
 
+from ai_interaction import generate_image_path
 from model.text2room_pipeline import Text2RoomPipeline
 from model.utils.opt import get_default_parser
 from model.utils.utils import save_poisson_mesh, generate_first_image
@@ -12,7 +13,9 @@ import torch
 @torch.no_grad()
 def main(args):
 
-    args.input_image_path = "sample_data/6.png"
+    dalle_generated_image_path = generate_image_path()
+
+    args.input_image_path = dalle_generated_image_path
 
     print("Received args: ", args)
 
