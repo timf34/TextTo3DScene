@@ -23,6 +23,8 @@ If you find Text2Room useful for your work please cite:
 
 Create a conda environment:
 
+_Note: we need to delete/ unset PYTHONHOME in order for miniconda to work_
+
 ```
 conda create -n text2room python=3.9
 conda activate text2room
