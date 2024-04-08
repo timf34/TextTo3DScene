@@ -12,8 +12,8 @@ def get_default_parser():
     group.add_argument('--models_path', required=False, default="checkpoints")
     group.add_argument('--out_path', required=False, default="output")
     group.add_argument('--input_image_path', required=False, type=str, default=None)
-    group.add_argument('--n_images', required=False, default=10, type=int)
-    group.add_argument('--save_scene_every_nth', required=False, default=50, type=int)
+    group.add_argument('--n_images', required=False, default=2, type=int)
+    group.add_argument('--save_scene_every_nth', required=False, default=20, type=int)
 
     # DEPTH CONFIG
     group = parser.add_argument_group("depth")
