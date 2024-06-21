@@ -41,7 +41,11 @@ Run `python generate_scene.py`
 The mesh output will be saved to the `output/` directory along with other artifacts. We care about the `.ply` file 
 that ends with `quadric`. 
 
+---
+
 (README below is from the project linked above and which we built on top of) 
+
+---
 
 # Text2Room
 Text2Room generates textured 3D meshes from a given text prompt using 2D text-to-image models.
